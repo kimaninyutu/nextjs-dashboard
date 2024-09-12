@@ -9,6 +9,8 @@ import {
 } from './definitions';
 import { formatCurrency } from './utils';
 
+// Fetch the last 5 invoices, sorted by date
+
 export async function fetchRevenue() {
   try {
     // Artificially delay a response for demo purposes.
